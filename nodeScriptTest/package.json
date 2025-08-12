@@ -1,0 +1,17 @@
+{
+  "name": "nodescripttest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "script.js",
+  "homepage": "https://NikitaSaini01.github.io/ab-test-script",
+"scripts": {
+    "predeploy": "node merge.js",
+    "deploy": "gh-pages -d dist"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
+
