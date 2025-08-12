@@ -5,9 +5,9 @@
   "main": "script.js",
   "homepage": "https://NikitaSaini01.github.io/ab-test-script",
 "scripts": {
-    "predeploy": "node merge.js",
-    "deploy": "gh-pages -d dist"
-  },
+  "predeploy": "node merge.js && node -e \"require('fs').mkdirSync('dist', { recursive: true }); ['index.html','styles.css','merged.js'].forEach(f => require('fs').copyFileSync(`nodeScriptTest/src/${f}`, `dist/${f}`));\"",
+  "deploy": "gh-pages -d dist"
+},
   "author": "",
   "license": "ISC",
   "devDependencies": {
