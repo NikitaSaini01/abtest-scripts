@@ -20,7 +20,7 @@
 </head>
 <body>
     <h1 id="first-tag">Click Me</h1>
-    <script src="merged.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>`;
   document.body.appendChild(container);
