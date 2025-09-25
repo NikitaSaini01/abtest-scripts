@@ -5,7 +5,7 @@
   "main": "script.js",
   "homepage": "https://NikitaSaini01.github.io/ab-test-script",
 "scripts": {
-  "predeploy": "node merge.js && node -e \"require('fs').mkdirSync('dist', { recursive: true }); ['index.html','styles.css','merged.js'].forEach(f => require('fs').copyFileSync(`nodeScriptTest/src/${f}`, `dist/${f}`));\"",
+  "predeploy": "node merge.js && node -e \"require('fs').mkdirSync('dist', { recursive: true }); ['index.html','styles.css'].forEach(f => require('fs').copyFileSync(`src/${f}`, `dist/${f}`))\"",
   "deploy": "gh-pages -d dist"
 },
   "author": "",

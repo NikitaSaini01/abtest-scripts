@@ -1,0 +1,12 @@
+{
+  "name": "xfinity-experiment",
+  "scripts": {
+    "build": "node merge.js",
+    "watch": "nodemon -e html,css,js -i dist/ merge.js",
+    "test": "live-server --open=test.html"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1",
+    "live-server": "^1.2.2"
+  }
+}

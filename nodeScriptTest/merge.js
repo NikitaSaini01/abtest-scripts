@@ -34,7 +34,7 @@ ${js}
 `.trim();
 
   fs.writeFileSync(path.join(distDir, 'merged.js'), output, 'utf8');
-  console.log('✅ dist/merged.js created');
+  console.log('dist/merged.js created');
 } catch (err) {
-  console.error('❌ Error merging files:', err);
+  console.error('Error merging files:', err);
 }

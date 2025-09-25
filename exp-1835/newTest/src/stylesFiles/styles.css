@@ -1,0 +1,5 @@
+xc-header[state="authenticated"]:not(.flownav) 
+.xc-header--account-container > ul > 
+.xc-header--account-icons-li:nth-child(1) {
+  display: none;
+}
